@@ -1,0 +1,101 @@
+---
+subject: '这是个变量'
+name: 'Autumn'
+people: ["Yehuda Katz","Alan Johnson","Charles Jolley"]
+---
+<container>
+  <spacer size="16"></spacer>
+  <row>
+    <columns small="12">
+      <span class="bg-warning">warning</span>
+      <span class="bg-dark">dark</span>
+      <span class="fill-canyon-600">canyon</span>
+    </columns>
+  </row>
+  <row>
+    <columns small="12">
+      <h5>{{name}}，您好：</h5>
+      <p>以下是您在 <a href="#">{{ subject }}</a> 的面试安排，如有任何变化请提前告知联系人，方便后续面试安排。</p>
+      <spacer size="16"></spacer>
+      <callout style="padding: 16px;">
+        <h6>面试信息</h6>
+        <p>
+          <span class="dark">面试阶段：</span>
+          <span>初试</span>
+        </p>
+        <p>
+          <span class="dark">面试方式：</span>
+          <span>现场面试</span>
+        </p>
+        <p>
+          <span class="dark">面试时间：</span>
+          <span>2021-07-22 11:00-12:00</span>
+        </p>
+        <p>
+          <span class="dark">面试地址：</span>
+          <span>深圳市南山区</span>
+        </p>
+        <p>
+          <span class="dark">面试联系人：</span>
+          <span>Nick（13013013013）</span>
+        </p>
+        <p>
+          <span class="dark">注意事项：</span>
+          <span>注意着装，不要穿拖孩和短裤</span>
+        </p>
+      </callout>
+      <spacer size="16"></spacer>
+      <button href="#" class="tiny">Tiny Button</button>
+      <button href="#" class="small">Small Button</button>
+      <button href="#">Default Button</button>
+      <table class="button">
+        <tbody>
+          <tr>
+            <td align="left" style="padding: 8px 16px 8px 16px;background: #ffffff; color: #737380; border: 1px solid #C9C9CE;" valign="top">
+              <a href="#" style="font-size: 14px; color: #737380;">取消按钮</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button href="https://www.runoob.com/try/try.php?filename=trycss_table_vertical-align" class="large">Large Button点击跳转</button>
+      <spacer size="16"></spacer>
+      <button href="#" class="radius">Radius</button>
+      <spacer size="16"></spacer>
+      <button href="#" class="rounded">Round</button>
+
+      <container>
+        <callout class="primary">
+          <p>这是框框</p>
+        </callout>
+      </container>
+      
+      <container>
+        <p>spacer的size是间隔的距离</p>
+        <spacer size="48"></spacer>
+        <p>间隔了48px</p>
+      </container>
+      
+      <container>
+        <p>
+          <span>span标签使用1</span>
+          <span>span标签使用2</span>
+          <span>span标签使用3</span>
+        </p>
+      </container>
+    </columns>
+  </row>
+</container>
+
+<container>
+  <row>
+    <columns small="6">
+      <p class="text-left">Left (default)</p>
+    </columns>
+    <columns>
+       <p class="text-center">center</p>
+    </columns>
+    <columns>
+       <p class="text-right">right</p>
+    </columns>
+  </row>
+</container>

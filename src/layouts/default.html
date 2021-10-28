@@ -1,0 +1,81 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{root}}css/app.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{{head.title}}</title>
+    <!-- <style> -->
+  </head>
+  <body>
+    <spacer size="24"></spacer>
+    <table class="body">
+      <tr>
+        <td class="center" align="center" valign="top">
+          <center>
+            <header>
+              <wrapper class="header">
+                <container>
+                  <spacer size="40"></spacer>
+                  <row>
+                    <columns small="6" style="vertical-align:middle;">
+                      <img src="{{ head.email_logo }}" style="height: 42px;">
+                    </columns>
+                    <columns small="6">
+                      <p class="text-right">{{head.email_slogan}}</p>
+                    </columns>
+                  </row>
+                  <spacer size="24"></spacer>
+                </container>
+                <spacer size="32"></spacer>
+                  <row>
+                    <columns>
+                      <h2 class="text-center">{{head.title}}</h2>
+                    </columns>
+                  </row>
+              </wrapper>
+            </header>
+            {{> body}}
+            <footer class="footer">
+              <wrapper class="footer">
+                <row>
+                  <columns style="vertical-align:middle;">
+                    <p  class="text-center compony-title">{{email_company}}</p>
+                    <spacer size="12"></spacer>
+                    <p class="compony-desc">{{ customer_service_text }}</p>
+                  </columns>
+                </row>
+                <row>
+                  <columns style="vertical-align:middle;">
+                    <p class="text-center fill-gold-700">注意：若贵公司账号过期无法登录，请扫码联系客服为您处理</p>
+                    <spacer size="16"></spacer>
+                    <center>
+                      <img src="" alt="客服二维码" style="height: 160px;">
+                    </center>
+                  </columns>
+                </row>
+                <spacer size="118"></spacer>
+                <row>
+                  <columns small="6" style="vertical-align:middle;">
+                    <p class="text-left fill-gray-600">本邮件由系统代发，无需回复</p>
+                  </columns>
+                  <columns small="6">
+                    <p class="text-right dark">{{head.email_company}}</p>
+                  </columns>
+                </row>
+              </wrapper>
+              <spacer size="32"></spacer>
+            </footer>
+          </center>
+        </td>
+      </tr>
+    </table>
+    
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  </body>
+</html>
+
