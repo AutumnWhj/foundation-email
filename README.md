@@ -2,6 +2,8 @@
 
 本项目HTML邮件模板基础项目，可自动生成适配多邮件客户端的模板。
 ## 安装并使用
+建议下载原项目的代码：https://github.com/foundation/foundation-emails-template
+我这份已经被我魔改了~
 node npm安装
 ```bash
 brew install node
@@ -12,10 +14,6 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 // 安装依赖
 cnpm install
 ```
-
-## 目录结构
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2777249/1635218024552-7a1de81b-6cfc-4e48-b96a-27e28a67556b.png#clientId=u5098cf56-ee47-4&from=paste&height=330&id=ub27fe80d&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1320&originWidth=620&originalType=binary&ratio=1&size=120169&status=done&style=none&taskId=uf06a1886-ae8f-46db-9c9a-2520af13c9d&width=155)
-
 ## 调试开发
 
 - step1：在page下新建html文件`resume.html`
